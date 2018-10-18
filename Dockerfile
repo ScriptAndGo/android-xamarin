@@ -1,4 +1,4 @@
-FROM scriptandgo/android:20180814
+FROM scriptandgo/android:20181018
 
 RUN apt-get update -qq && apt-get install gnupg wget bzip2 libzip4 -y && apt install -y apt-transport-https
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF \
